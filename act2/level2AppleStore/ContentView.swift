@@ -12,19 +12,22 @@ struct ContentView: View {
         ZStack{
             ScrollView{
                 VStack(spacing: 0){
-                    Header()
-                    Divider()
-                    SwipePromotion()
-                }
-                .padding(.horizontal, 20)
-                  
-                VStack(spacing: 0) {
-                    Divider()
-                    ProductPhone()
-                    PriceArea()
-                    ProductTablet()
-                    PriceArea()
+                    VStack(spacing: 0){
+                        Header()
+                        Divider()
+                        SwipePromotion()
+                    }
+                    .padding(.horizontal, 20)
                     
+                    VStack(spacing: 0) {
+                        Divider()
+                        ProductPhone()
+                        PriceArea()
+                        ProductTablet()
+                        PriceArea()
+                        
+                        
+                    }
                 }
             }
         }
