@@ -7,34 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29DFC03F2A1745EB003CF38E /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFC03E2A1745EB003CF38E /* ProductItem.swift */; };
-		29DFC0432A174D82003CF38E /* PriceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFC0422A174D82003CF38E /* PriceArea.swift */; };
-		29DFC0492A17602E003CF38E /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFC0482A17602E003CF38E /* SnapCarousel.swift */; };
-		29E53B232A14AD8F00CD485E /* level2AppleStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E53B222A14AD8F00CD485E /* level2AppleStoreApp.swift */; };
-		29E53B252A14AD8F00CD485E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E53B242A14AD8F00CD485E /* ContentView.swift */; };
-		29E53B272A14AD8F00CD485E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E53B262A14AD8F00CD485E /* Assets.xcassets */; };
-		29E53B2A2A14AD8F00CD485E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E53B292A14AD8F00CD485E /* Preview Assets.xcassets */; };
-		29E53B322A14BA7000CD485E /* ModelContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E53B312A14BA7000CD485E /* ModelContents.swift */; };
-		29E53B402A14EE8300CD485E /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E53B3F2A14EE8300CD485E /* Header.swift */; };
-		29E53B422A14F5B600CD485E /* SwipePromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E53B412A14F5B600CD485E /* SwipePromotion.swift */; };
+		29C13D442A2984780035BA9D /* AddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C13D432A2984780035BA9D /* AddSheet.swift */; };
+		29D519BE2A287D5100E1118A /* ACT3AlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */; };
+		29D519C02A287D5100E1118A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D519BF2A287D5100E1118A /* ContentView.swift */; };
+		29D519C22A287D5200E1118A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D519C12A287D5200E1118A /* Assets.xcassets */; };
+		29D519C52A287D5200E1118A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D519C42A287D5200E1118A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29DFC03E2A1745EB003CF38E /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
-		29DFC0422A174D82003CF38E /* PriceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceArea.swift; sourceTree = "<group>"; };
-		29DFC0482A17602E003CF38E /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
-		29E53B1F2A14AD8F00CD485E /* level2AppleStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = level2AppleStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E53B222A14AD8F00CD485E /* level2AppleStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2AppleStoreApp.swift; sourceTree = "<group>"; };
-		29E53B242A14AD8F00CD485E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		29E53B262A14AD8F00CD485E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29E53B292A14AD8F00CD485E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		29E53B312A14BA7000CD485E /* ModelContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContents.swift; sourceTree = "<group>"; };
-		29E53B3F2A14EE8300CD485E /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
-		29E53B412A14F5B600CD485E /* SwipePromotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipePromotion.swift; sourceTree = "<group>"; };
+		29C13D432A2984780035BA9D /* AddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheet.swift; sourceTree = "<group>"; };
+		29D519BA2A287D5100E1118A /* ACT3Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACT3Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT3AlarmApp.swift; sourceTree = "<group>"; };
+		29D519BF2A287D5100E1118A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29D519C12A287D5200E1118A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29D519C42A287D5200E1118A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29E53B1C2A14AD8F00CD485E /* Frameworks */ = {
+		29D519B72A287D5100E1118A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,91 +34,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29E53B162A14AD8F00CD485E = {
+		29D519B12A287D5100E1118A = {
 			isa = PBXGroup;
 			children = (
-				29E53B212A14AD8F00CD485E /* level2AppleStore */,
-				29E53B202A14AD8F00CD485E /* Products */,
+				29D519BC2A287D5100E1118A /* ACT3Alarm */,
+				29D519BB2A287D5100E1118A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		29E53B202A14AD8F00CD485E /* Products */ = {
+		29D519BB2A287D5100E1118A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29E53B1F2A14AD8F00CD485E /* level2AppleStore.app */,
+				29D519BA2A287D5100E1118A /* ACT3Alarm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29E53B212A14AD8F00CD485E /* level2AppleStore */ = {
+		29D519BC2A287D5100E1118A /* ACT3Alarm */ = {
 			isa = PBXGroup;
 			children = (
-				29E53B222A14AD8F00CD485E /* level2AppleStoreApp.swift */,
-				29E53B242A14AD8F00CD485E /* ContentView.swift */,
-				29E53B3F2A14EE8300CD485E /* Header.swift */,
-				29E53B412A14F5B600CD485E /* SwipePromotion.swift */,
-				29DFC03E2A1745EB003CF38E /* ProductItem.swift */,
-				29DFC0422A174D82003CF38E /* PriceArea.swift */,
-				29DFC0482A17602E003CF38E /* SnapCarousel.swift */,
-				29E53B302A14BA5300CD485E /* Model */,
-				29E53B262A14AD8F00CD485E /* Assets.xcassets */,
-				29E53B282A14AD8F00CD485E /* Preview Content */,
+				29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */,
+				29D519BF2A287D5100E1118A /* ContentView.swift */,
+				29C13D432A2984780035BA9D /* AddSheet.swift */,
+				29D519C12A287D5200E1118A /* Assets.xcassets */,
+				29D519C32A287D5200E1118A /* Preview Content */,
 			);
-			path = level2AppleStore;
+			path = ACT3Alarm;
 			sourceTree = "<group>";
 		};
-		29E53B282A14AD8F00CD485E /* Preview Content */ = {
+		29D519C32A287D5200E1118A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				29E53B292A14AD8F00CD485E /* Preview Assets.xcassets */,
+				29D519C42A287D5200E1118A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		29E53B302A14BA5300CD485E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				29E53B312A14BA7000CD485E /* ModelContents.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29E53B1E2A14AD8F00CD485E /* level2AppleStore */ = {
+		29D519B92A287D5100E1118A /* ACT3Alarm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29E53B2D2A14AD8F00CD485E /* Build configuration list for PBXNativeTarget "level2AppleStore" */;
+			buildConfigurationList = 29D519C82A287D5200E1118A /* Build configuration list for PBXNativeTarget "ACT3Alarm" */;
 			buildPhases = (
-				29E53B1B2A14AD8F00CD485E /* Sources */,
-				29E53B1C2A14AD8F00CD485E /* Frameworks */,
-				29E53B1D2A14AD8F00CD485E /* Resources */,
+				29D519B62A287D5100E1118A /* Sources */,
+				29D519B72A287D5100E1118A /* Frameworks */,
+				29D519B82A287D5100E1118A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = level2AppleStore;
-			productName = level2AppleStore;
-			productReference = 29E53B1F2A14AD8F00CD485E /* level2AppleStore.app */;
+			name = ACT3Alarm;
+			productName = ACT3Alarm;
+			productReference = 29D519BA2A287D5100E1118A /* ACT3Alarm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29E53B172A14AD8F00CD485E /* Project object */ = {
+		29D519B22A287D5100E1118A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					29E53B1E2A14AD8F00CD485E = {
+					29D519B92A287D5100E1118A = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 29E53B1A2A14AD8F00CD485E /* Build configuration list for PBXProject "level2AppleStore" */;
+			buildConfigurationList = 29D519B52A287D5100E1118A /* Build configuration list for PBXProject "ACT3Alarm" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,48 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 29E53B162A14AD8F00CD485E;
-			productRefGroup = 29E53B202A14AD8F00CD485E /* Products */;
+			mainGroup = 29D519B12A287D5100E1118A;
+			productRefGroup = 29D519BB2A287D5100E1118A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29E53B1E2A14AD8F00CD485E /* level2AppleStore */,
+				29D519B92A287D5100E1118A /* ACT3Alarm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29E53B1D2A14AD8F00CD485E /* Resources */ = {
+		29D519B82A287D5100E1118A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E53B2A2A14AD8F00CD485E /* Preview Assets.xcassets in Resources */,
-				29E53B272A14AD8F00CD485E /* Assets.xcassets in Resources */,
+				29D519C52A287D5200E1118A /* Preview Assets.xcassets in Resources */,
+				29D519C22A287D5200E1118A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29E53B1B2A14AD8F00CD485E /* Sources */ = {
+		29D519B62A287D5100E1118A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E53B252A14AD8F00CD485E /* ContentView.swift in Sources */,
-				29DFC0432A174D82003CF38E /* PriceArea.swift in Sources */,
-				29E53B232A14AD8F00CD485E /* level2AppleStoreApp.swift in Sources */,
-				29E53B422A14F5B600CD485E /* SwipePromotion.swift in Sources */,
-				29DFC03F2A1745EB003CF38E /* ProductItem.swift in Sources */,
-				29DFC0492A17602E003CF38E /* SnapCarousel.swift in Sources */,
-				29E53B322A14BA7000CD485E /* ModelContents.swift in Sources */,
-				29E53B402A14EE8300CD485E /* Header.swift in Sources */,
+				29D519C02A287D5100E1118A /* ContentView.swift in Sources */,
+				29D519BE2A287D5100E1118A /* ACT3AlarmApp.swift in Sources */,
+				29C13D442A2984780035BA9D /* AddSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		29E53B2B2A14AD8F00CD485E /* Debug */ = {
+		29D519C62A287D5200E1118A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		29E53B2C2A14AD8F00CD485E /* Release */ = {
+		29D519C72A287D5200E1118A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,14 +263,14 @@
 			};
 			name = Release;
 		};
-		29E53B2E2A14AD8F00CD485E /* Debug */ = {
+		29D519C92A287D5200E1118A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"level2AppleStore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ACT3Alarm/Preview Content\"";
 				DEVELOPMENT_TEAM = UB6VCYGV2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.level2AppleStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.ACT3Alarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,14 +292,14 @@
 			};
 			name = Debug;
 		};
-		29E53B2F2A14AD8F00CD485E /* Release */ = {
+		29D519CA2A287D5200E1118A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"level2AppleStore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ACT3Alarm/Preview Content\"";
 				DEVELOPMENT_TEAM = UB6VCYGV2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -341,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.level2AppleStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.ACT3Alarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29E53B1A2A14AD8F00CD485E /* Build configuration list for PBXProject "level2AppleStore" */ = {
+		29D519B52A287D5100E1118A /* Build configuration list for PBXProject "ACT3Alarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E53B2B2A14AD8F00CD485E /* Debug */,
-				29E53B2C2A14AD8F00CD485E /* Release */,
+				29D519C62A287D5200E1118A /* Debug */,
+				29D519C72A287D5200E1118A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29E53B2D2A14AD8F00CD485E /* Build configuration list for PBXNativeTarget "level2AppleStore" */ = {
+		29D519C82A287D5200E1118A /* Build configuration list for PBXNativeTarget "ACT3Alarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E53B2E2A14AD8F00CD485E /* Debug */,
-				29E53B2F2A14AD8F00CD485E /* Release */,
+				29D519C92A287D5200E1118A /* Debug */,
+				29D519CA2A287D5200E1118A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29E53B172A14AD8F00CD485E /* Project object */;
+	rootObject = 29D519B22A287D5100E1118A /* Project object */;
 }

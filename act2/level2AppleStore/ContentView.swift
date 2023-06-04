@@ -10,29 +10,25 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            ScrollView{
-                VStack(spacing: 0){
-                    VStack(spacing: 0){
-                        Header()
-                        Divider()
-                        SwipePromotion()
-                    }
-                    .padding(.horizontal, 20)
-                    
+           GeometryReader{ proxy in
+                ScrollView{
                     VStack(spacing: 0) {
+                        Header()
+                            .padding(.horizontal, 20)
+                        
+                        SwipePromotion()
+                        
                         Divider()
-                        ProductPhone()
-                        PriceArea()
-                        ProductTablet()
-                        PriceArea()
-                        
-                        
+                        ProductItem()
+                        SnapCarousel()
+                            .frame(height: proxy.size.height - 70)
                     }
                 }
             }
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
