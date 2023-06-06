@@ -15,6 +15,15 @@ struct SwipePromotionModel: Identifiable {
     var text_title: String
     var text_info: String
     var more_padding_bottom: Int
+    
+    init(index: Int, icon: String, icon_size: Double, text_title: String, text_info: String, more_padding_bottom: Int) {
+        self.index = index
+        self.icon = icon
+        self.icon_size = icon_size
+        self.text_title = text_title
+        self.text_info = text_info
+        self.more_padding_bottom = more_padding_bottom
+    }
 }
 
 struct SwipeProductModel: Identifiable {

@@ -7,22 +7,16 @@
 
 import SwiftUI
 
-struct User : Identifiable {
-    var id = UUID()
-    var name : String
-    var nickname: String
-}
-
-
 struct ContentView: View {
     
-    @State var users = [User]()
     @State private var someToggle = true
     @State var isShownAddSheet = false
     
+    @State var modelLists = [ModelList]()
+    
     
     func delete2 (idHello : IndexSet){
-        users.remove(atOffsets: idHello)
+        modelLists.remove(atOffsets: idHello)
         
     }
     
@@ -60,33 +54,9 @@ struct ContentView: View {
                         Text("기타")
                             .font(.system(size: 17))
                         
-                        ForEach(users) { user in
+                        ForEach(modelLists) { list in
                             
-                            VStack(spacing: 0){
-                                Toggle(isOn: $someToggle, label: {
-                                    
-                                    HStack(alignment: .bottom, spacing: 0){
-                                        Text(user.name)
-                                            .font(.system(size: 35))
-                                        Text(user.nickname)
-                                            .font(.system(size: 59))
-                                    }
-                                    
-                                })
-                                
-                                
-                                if someToggle {
-                                    let _ = print("얍")
-                                } else {
-                                    let _ = print("예")
-                                }
-                                
-                                Text("알람")
-                                    .font(.system(size: 12))
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                   // .border(.green)
-                            }
-                            //.border(.yellow)
+                            AlarmComponent(alarm: list)
                             
                             
                         }
@@ -97,13 +67,13 @@ struct ContentView: View {
                     .toolbar {
                         Button {
                             self.isShownAddSheet.toggle()
-                            users.append(User(name: "오전", nickname: "07:00"))
+                            modelLists.append(ModelList(date: Date()))
                         } label: {
                             Image(systemName: "plus")
                                 .foregroundColor(Color("ColorIconOrange"))
                         }
                         .sheet(isPresented: $isShownAddSheet) {
-                                AddSheet()
+                            AddSheet()
                         }
                     }
                 }

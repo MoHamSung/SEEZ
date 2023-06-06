@@ -9,6 +9,9 @@ import SwiftUI
 
 struct AddSheet: View {
     @State private var currentDate = Date()
+  //  @Binding var modelList : [ModelList]
+    
+   
     
     var body: some View {
         NavigationView {
@@ -18,7 +21,11 @@ struct AddSheet: View {
                     .labelsHidden()
                    // .frame(maxWidth: .infinity)
                 
+               
+                
                 List() {
+                    Text(currentDate.formatted())
+
                     HStack {
                         Text("반복")
                         Spacer()
@@ -58,6 +65,8 @@ struct AddSheet: View {
         }
     }
 }
+
+
 
 struct AddSheet_Previews: PreviewProvider {
     static var previews: some View {

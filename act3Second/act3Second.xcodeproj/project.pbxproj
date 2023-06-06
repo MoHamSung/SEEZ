@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2912BFB32A2F274100F24AEF /* AlarmComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912BFB22A2F274100F24AEF /* AlarmComponent.swift */; };
-		292796F02A2DCD81004AED20 /* ModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796EF2A2DCD81004AED20 /* ModelList.swift */; };
-		29C13D442A2984780035BA9D /* AddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C13D432A2984780035BA9D /* AddSheet.swift */; };
-		29D519BE2A287D5100E1118A /* ACT3AlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */; };
-		29D519C02A287D5100E1118A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D519BF2A287D5100E1118A /* ContentView.swift */; };
-		29D519C22A287D5200E1118A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D519C12A287D5200E1118A /* Assets.xcassets */; };
-		29D519C52A287D5200E1118A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D519C42A287D5200E1118A /* Preview Assets.xcassets */; };
+		292796D82A2D73F3004AED20 /* act3SecondApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796D72A2D73F3004AED20 /* act3SecondApp.swift */; };
+		292796DA2A2D73F3004AED20 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796D92A2D73F3004AED20 /* AlarmView.swift */; };
+		292796DC2A2D73F5004AED20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292796DB2A2D73F5004AED20 /* Assets.xcassets */; };
+		292796DF2A2D73F5004AED20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292796DE2A2D73F5004AED20 /* Preview Assets.xcassets */; };
+		292796E62A2D74F6004AED20 /* ListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796E52A2D74F6004AED20 /* ListHeader.swift */; };
+		292796E82A2D7758004AED20 /* AlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796E72A2D7758004AED20 /* AlarmList.swift */; };
+		292796EA2A2D7D43004AED20 /* ModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796E92A2D7D43004AED20 /* ModelList.swift */; };
+		292796EC2A2D8678004AED20 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796EB2A2D8678004AED20 /* ParentView.swift */; };
+		292796EE2A2D86A6004AED20 /* ChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796ED2A2D86A6004AED20 /* ChildrenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2912BFB22A2F274100F24AEF /* AlarmComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmComponent.swift; sourceTree = "<group>"; };
-		292796EF2A2DCD81004AED20 /* ModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelList.swift; sourceTree = "<group>"; };
-		29C13D432A2984780035BA9D /* AddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheet.swift; sourceTree = "<group>"; };
-		29D519BA2A287D5100E1118A /* ACT3Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACT3Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT3AlarmApp.swift; sourceTree = "<group>"; };
-		29D519BF2A287D5100E1118A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		29D519C12A287D5200E1118A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29D519C42A287D5200E1118A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		292796D42A2D73F3004AED20 /* act3Second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = act3Second.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292796D72A2D73F3004AED20 /* act3SecondApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = act3SecondApp.swift; sourceTree = "<group>"; };
+		292796D92A2D73F3004AED20 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		292796DB2A2D73F5004AED20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292796DE2A2D73F5004AED20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		292796E52A2D74F6004AED20 /* ListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeader.swift; sourceTree = "<group>"; };
+		292796E72A2D7758004AED20 /* AlarmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmList.swift; sourceTree = "<group>"; };
+		292796E92A2D7D43004AED20 /* ModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelList.swift; sourceTree = "<group>"; };
+		292796EB2A2D8678004AED20 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		292796ED2A2D86A6004AED20 /* ChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29D519B72A287D5100E1118A /* Frameworks */ = {
+		292796D12A2D73F3004AED20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +42,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29D519B12A287D5100E1118A = {
+		292796CB2A2D73F3004AED20 = {
 			isa = PBXGroup;
 			children = (
-				29D519BC2A287D5100E1118A /* ACT3Alarm */,
-				29D519BB2A287D5100E1118A /* Products */,
+				292796D62A2D73F3004AED20 /* act3Second */,
+				292796D52A2D73F3004AED20 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		29D519BB2A287D5100E1118A /* Products */ = {
+		292796D52A2D73F3004AED20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29D519BA2A287D5100E1118A /* ACT3Alarm.app */,
+				292796D42A2D73F3004AED20 /* act3Second.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29D519BC2A287D5100E1118A /* ACT3Alarm */ = {
+		292796D62A2D73F3004AED20 /* act3Second */ = {
 			isa = PBXGroup;
 			children = (
-				29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */,
-				29D519BF2A287D5100E1118A /* ContentView.swift */,
-				29C13D432A2984780035BA9D /* AddSheet.swift */,
-				2912BFB22A2F274100F24AEF /* AlarmComponent.swift */,
-				292796EF2A2DCD81004AED20 /* ModelList.swift */,
-				29D519C12A287D5200E1118A /* Assets.xcassets */,
-				29D519C32A287D5200E1118A /* Preview Content */,
+				292796D72A2D73F3004AED20 /* act3SecondApp.swift */,
+				292796D92A2D73F3004AED20 /* AlarmView.swift */,
+				292796E52A2D74F6004AED20 /* ListHeader.swift */,
+				292796E72A2D7758004AED20 /* AlarmList.swift */,
+				292796DB2A2D73F5004AED20 /* Assets.xcassets */,
+				292796E92A2D7D43004AED20 /* ModelList.swift */,
+				292796EB2A2D8678004AED20 /* ParentView.swift */,
+				292796ED2A2D86A6004AED20 /* ChildrenView.swift */,
+				292796DD2A2D73F5004AED20 /* Preview Content */,
 			);
-			path = ACT3Alarm;
+			path = act3Second;
 			sourceTree = "<group>";
 		};
-		29D519C32A287D5200E1118A /* Preview Content */ = {
+		292796DD2A2D73F5004AED20 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				29D519C42A287D5200E1118A /* Preview Assets.xcassets */,
+				292796DE2A2D73F5004AED20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +85,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29D519B92A287D5100E1118A /* ACT3Alarm */ = {
+		292796D32A2D73F3004AED20 /* act3Second */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29D519C82A287D5200E1118A /* Build configuration list for PBXNativeTarget "ACT3Alarm" */;
+			buildConfigurationList = 292796E22A2D73F5004AED20 /* Build configuration list for PBXNativeTarget "act3Second" */;
 			buildPhases = (
-				29D519B62A287D5100E1118A /* Sources */,
-				29D519B72A287D5100E1118A /* Frameworks */,
-				29D519B82A287D5100E1118A /* Resources */,
+				292796D02A2D73F3004AED20 /* Sources */,
+				292796D12A2D73F3004AED20 /* Frameworks */,
+				292796D22A2D73F3004AED20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ACT3Alarm;
-			productName = ACT3Alarm;
-			productReference = 29D519BA2A287D5100E1118A /* ACT3Alarm.app */;
+			name = act3Second;
+			productName = act3Second;
+			productReference = 292796D42A2D73F3004AED20 /* act3Second.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29D519B22A287D5100E1118A /* Project object */ = {
+		292796CC2A2D73F3004AED20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					29D519B92A287D5100E1118A = {
+					292796D32A2D73F3004AED20 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 29D519B52A287D5100E1118A /* Build configuration list for PBXProject "ACT3Alarm" */;
+			buildConfigurationList = 292796CF2A2D73F3004AED20 /* Build configuration list for PBXProject "act3Second" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +125,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 29D519B12A287D5100E1118A;
-			productRefGroup = 29D519BB2A287D5100E1118A /* Products */;
+			mainGroup = 292796CB2A2D73F3004AED20;
+			productRefGroup = 292796D52A2D73F3004AED20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29D519B92A287D5100E1118A /* ACT3Alarm */,
+				292796D32A2D73F3004AED20 /* act3Second */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29D519B82A287D5100E1118A /* Resources */ = {
+		292796D22A2D73F3004AED20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D519C52A287D5200E1118A /* Preview Assets.xcassets in Resources */,
-				29D519C22A287D5200E1118A /* Assets.xcassets in Resources */,
+				292796DF2A2D73F5004AED20 /* Preview Assets.xcassets in Resources */,
+				292796DC2A2D73F5004AED20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29D519B62A287D5100E1118A /* Sources */ = {
+		292796D02A2D73F3004AED20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D519C02A287D5100E1118A /* ContentView.swift in Sources */,
-				2912BFB32A2F274100F24AEF /* AlarmComponent.swift in Sources */,
-				29D519BE2A287D5100E1118A /* ACT3AlarmApp.swift in Sources */,
-				29C13D442A2984780035BA9D /* AddSheet.swift in Sources */,
-				292796F02A2DCD81004AED20 /* ModelList.swift in Sources */,
+				292796DA2A2D73F3004AED20 /* AlarmView.swift in Sources */,
+				292796E62A2D74F6004AED20 /* ListHeader.swift in Sources */,
+				292796D82A2D73F3004AED20 /* act3SecondApp.swift in Sources */,
+				292796EA2A2D7D43004AED20 /* ModelList.swift in Sources */,
+				292796EC2A2D8678004AED20 /* ParentView.swift in Sources */,
+				292796EE2A2D86A6004AED20 /* ChildrenView.swift in Sources */,
+				292796E82A2D7758004AED20 /* AlarmList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		29D519C62A287D5200E1118A /* Debug */ = {
+		292796E02A2D73F5004AED20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		29D519C72A287D5200E1118A /* Release */ = {
+		292796E12A2D73F5004AED20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,14 +279,14 @@
 			};
 			name = Release;
 		};
-		29D519C92A287D5200E1118A /* Debug */ = {
+		292796E32A2D73F5004AED20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ACT3Alarm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"act3Second/Preview Content\"";
 				DEVELOPMENT_TEAM = UB6VCYGV2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -292,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.ACT3Alarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.act3Second;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,14 +308,14 @@
 			};
 			name = Debug;
 		};
-		29D519CA2A287D5200E1118A /* Release */ = {
+		292796E42A2D73F5004AED20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ACT3Alarm/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"act3Second/Preview Content\"";
 				DEVELOPMENT_TEAM = UB6VCYGV2P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.ACT3Alarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghoria.act3Second;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,25 +340,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29D519B52A287D5100E1118A /* Build configuration list for PBXProject "ACT3Alarm" */ = {
+		292796CF2A2D73F3004AED20 /* Build configuration list for PBXProject "act3Second" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29D519C62A287D5200E1118A /* Debug */,
-				29D519C72A287D5200E1118A /* Release */,
+				292796E02A2D73F5004AED20 /* Debug */,
+				292796E12A2D73F5004AED20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29D519C82A287D5200E1118A /* Build configuration list for PBXNativeTarget "ACT3Alarm" */ = {
+		292796E22A2D73F5004AED20 /* Build configuration list for PBXNativeTarget "act3Second" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29D519C92A287D5200E1118A /* Debug */,
-				29D519CA2A287D5200E1118A /* Release */,
+				292796E32A2D73F5004AED20 /* Debug */,
+				292796E42A2D73F5004AED20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29D519B22A287D5100E1118A /* Project object */;
+	rootObject = 292796CC2A2D73F3004AED20 /* Project object */;
 }
