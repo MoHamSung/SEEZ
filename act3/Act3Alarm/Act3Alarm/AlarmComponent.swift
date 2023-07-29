@@ -11,36 +11,28 @@ struct AlarmComponent: View {
     @ObservedObject var alarm: ModelList
     
     var body: some View {
-        VStack(spacing: 0){
-            Toggle(isOn: $alarm.isToggleOn, label: {
-                
-                HStack(alignment: .bottom, spacing: 0){
-                    Text(alarm.partOfDay)
-                        .font(.system(size: 35))
-                    Text(alarm.time)
-                        .font(.system(size: 59))
-                }
-                
-            })
-            
-            
-            if alarm.isToggleOn {
-                let _ = print("얍")
-            } else {
-                let _ = print("예")
+        VStack(alignment: .leading,spacing: 0){
+            HStack(alignment: .bottom, spacing: 0){
+                Text(alarm.partOfDay)
+                    .font(.system(size: 35))
+                    .baselineOffset(7)
+                Text(alarm.time)
+                    .font(.system(size: 59))
+                Spacer()
+                Toggle("안녕하세요", isOn: $alarm.isToggleOn)
+                    .padding(.bottom, 10)
+                    .padding(.trailing, 4)
+                    .labelsHidden()
             }
-            
             Text("알람")
                 .font(.system(size: 12))
-                .frame(maxWidth: .infinity, alignment: .leading)
-               // .border(.green)
         }
-        //.border(.yellow)
+        .foregroundColor(Color("\(alarm.isToggleOn ? "ColorFontWhite": "ColorFontGray")"))
     }
 }
 
-//struct AlarmComponent_Previews: PreviewProvider {
-//    static var previews: some View {
-//        AlarmComponent()
-//    }
-//}
+struct AlarmComponent_Previews: PreviewProvider {
+    static var previews: some View {
+        AlarmComponent(alarm: ModelList(date: Date()))
+    }
+}

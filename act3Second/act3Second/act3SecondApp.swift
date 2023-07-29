@@ -11,7 +11,7 @@ import SwiftUI
 struct act3SecondApp: App {
     var body: some Scene {
         WindowGroup {
-            AlarmView()
+            ParentView()
         }
     }
 }

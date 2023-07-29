@@ -8,18 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @State private var someToggle = true
-    @State var isShownAddSheet = false
-    
     @State var modelLists = [ModelList]()
+    @State var modelListsForSheet : ModelList?
+    @State var isShownAddSheet = false
+    @State private var selectedTime = Date()
     
-    
-    func delete2 (idHello : IndexSet){
-        modelLists.remove(atOffsets: idHello)
+    func delete (selectedSetting : IndexSet){
+        modelLists.remove(atOffsets: selectedSetting)
         
     }
-    
     
     var body: some View {
         ZStack{
@@ -55,25 +52,29 @@ struct ContentView: View {
                             .font(.system(size: 17))
                         
                         ForEach(modelLists) { list in
-                            
-                            AlarmComponent(alarm: list)
-                            
-                            
+                            Button {
+                                modelListsForSheet = list
+                            } label: {
+                                AlarmComponent(alarm: list)
+                                
+                            }
                         }
-                        .onDelete(perform: delete2)
+                        .onDelete(perform: delete)
                     }
                     .listStyle(PlainListStyle())
-                    .navigationTitle("알림")
+                    .navigationTitle("알람")
                     .toolbar {
                         Button {
                             self.isShownAddSheet.toggle()
-                            modelLists.append(ModelList(date: Date()))
                         } label: {
                             Image(systemName: "plus")
                                 .foregroundColor(Color("ColorIconOrange"))
                         }
                         .sheet(isPresented: $isShownAddSheet) {
-                            AddSheet()
+                            SettingSheet(selectedTime: $selectedTime, modelLists: $modelLists, isShownAddSheet: $isShownAddSheet)
+                        }
+                        .sheet(item : $modelListsForSheet){ alarmList in
+                            EditSheet(alarmList: alarmList)
                         }
                     }
                 }

@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2912BFB32A2F274100F24AEF /* AlarmComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912BFB22A2F274100F24AEF /* AlarmComponent.swift */; };
+		2912BFB52A304E3D00F24AEF /* EditSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912BFB42A304E3D00F24AEF /* EditSheet.swift */; };
 		292796F02A2DCD81004AED20 /* ModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292796EF2A2DCD81004AED20 /* ModelList.swift */; };
-		29C13D442A2984780035BA9D /* AddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C13D432A2984780035BA9D /* AddSheet.swift */; };
+		295D7C6F2A370C4300E941DB /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D7C6E2A370C4300E941DB /* ParentView.swift */; };
+		295D7C712A370C4B00E941DB /* ChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295D7C702A370C4B00E941DB /* ChildrenView.swift */; };
+		29C13D442A2984780035BA9D /* SettingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C13D432A2984780035BA9D /* SettingSheet.swift */; };
 		29D519BE2A287D5100E1118A /* ACT3AlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */; };
 		29D519C02A287D5100E1118A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D519BF2A287D5100E1118A /* ContentView.swift */; };
 		29D519C22A287D5200E1118A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D519C12A287D5200E1118A /* Assets.xcassets */; };
@@ -18,8 +21,11 @@
 
 /* Begin PBXFileReference section */
 		2912BFB22A2F274100F24AEF /* AlarmComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmComponent.swift; sourceTree = "<group>"; };
+		2912BFB42A304E3D00F24AEF /* EditSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSheet.swift; sourceTree = "<group>"; };
 		292796EF2A2DCD81004AED20 /* ModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelList.swift; sourceTree = "<group>"; };
-		29C13D432A2984780035BA9D /* AddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheet.swift; sourceTree = "<group>"; };
+		295D7C6E2A370C4300E941DB /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		295D7C702A370C4B00E941DB /* ChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenView.swift; sourceTree = "<group>"; };
+		29C13D432A2984780035BA9D /* SettingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSheet.swift; sourceTree = "<group>"; };
 		29D519BA2A287D5100E1118A /* ACT3Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACT3Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT3AlarmApp.swift; sourceTree = "<group>"; };
 		29D519BF2A287D5100E1118A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,10 +65,13 @@
 			children = (
 				29D519BD2A287D5100E1118A /* ACT3AlarmApp.swift */,
 				29D519BF2A287D5100E1118A /* ContentView.swift */,
-				29C13D432A2984780035BA9D /* AddSheet.swift */,
+				29C13D432A2984780035BA9D /* SettingSheet.swift */,
+				2912BFB42A304E3D00F24AEF /* EditSheet.swift */,
 				2912BFB22A2F274100F24AEF /* AlarmComponent.swift */,
-				292796EF2A2DCD81004AED20 /* ModelList.swift */,
 				29D519C12A287D5200E1118A /* Assets.xcassets */,
+				292796EF2A2DCD81004AED20 /* ModelList.swift */,
+				295D7C6E2A370C4300E941DB /* ParentView.swift */,
+				295D7C702A370C4B00E941DB /* ChildrenView.swift */,
 				29D519C32A287D5200E1118A /* Preview Content */,
 			);
 			path = ACT3Alarm;
@@ -147,9 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D519C02A287D5100E1118A /* ContentView.swift in Sources */,
+				295D7C712A370C4B00E941DB /* ChildrenView.swift in Sources */,
 				2912BFB32A2F274100F24AEF /* AlarmComponent.swift in Sources */,
 				29D519BE2A287D5100E1118A /* ACT3AlarmApp.swift in Sources */,
-				29C13D442A2984780035BA9D /* AddSheet.swift in Sources */,
+				2912BFB52A304E3D00F24AEF /* EditSheet.swift in Sources */,
+				295D7C6F2A370C4300E941DB /* ParentView.swift in Sources */,
+				29C13D442A2984780035BA9D /* SettingSheet.swift in Sources */,
 				292796F02A2DCD81004AED20 /* ModelList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

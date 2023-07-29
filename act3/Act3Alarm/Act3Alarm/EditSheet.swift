@@ -7,29 +7,23 @@
 
 import SwiftUI
 
-struct AddSheet: View {
-    @State private var currentDate = Date()
-  //  @Binding var modelList : [ModelList]
-    
-   
+struct EditSheet: View {
+    @ObservedObject var alarmList : ModelList
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         NavigationView {
             VStack {
-                DatePicker("알람 설정 시각", selection: $currentDate, displayedComponents: .hourAndMinute)
+                DatePicker("알람 설정 시각", selection: $alarmList.date, displayedComponents: .hourAndMinute)
                     .datePickerStyle(.wheel)
                     .labelsHidden()
-                   // .frame(maxWidth: .infinity)
-                
-               
                 
                 List() {
-                    Text(currentDate.formatted())
-
                     HStack {
                         Text("반복")
                         Spacer()
                         Text("안 함 \(Image(systemName: "chevron.right"))")
+                            .font(.system(size: 12))
                     }
                     HStack {
                         Text("레이블")
@@ -41,6 +35,7 @@ struct AddSheet: View {
                         Text("레이블")
                         Spacer()
                         Text("녹차 \(Image(systemName: "chevron.right"))")
+                            .font(.system(size: 12))
                     }
                     HStack{
                         Text("다시 알림")
@@ -50,13 +45,15 @@ struct AddSheet: View {
             .navigationBarItems(
                 leading:
                     Button {
-                        print("취소요")
+                        presentationMode.wrappedValue.dismiss()
                     } label: {
                         Text("취소")
                             .foregroundColor(Color("ColorIconOrange"))
                     },
                 trailing: Button {
-                    print("저장요")
+                    alarmList.updateDate(date: alarmList.date)
+                    presentationMode.wrappedValue.dismiss()
+                    
                 } label: {
                     Text("저장")
                         .font(.system(size: 16, weight: .bold))
@@ -68,9 +65,6 @@ struct AddSheet: View {
 
 
 
-struct AddSheet_Previews: PreviewProvider {
-    static var previews: some View {
-        AddSheet()
-            .preferredColorScheme(.dark)
-    }
-}
+
+
+

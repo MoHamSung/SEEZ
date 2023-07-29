@@ -32,8 +32,10 @@ struct AlarmView: View {
                     }
                     
                     Section {
-                        AlarmList()
-                        Text("syd")
+                       
+                            AlarmList()
+                            AlarmList()
+                        
                     } header: {
                         ListHeader(listHeaderImage: "", listHeaderText: "기타")
                     }

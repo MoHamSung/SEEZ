@@ -9,8 +9,11 @@ import SwiftUI
 
 struct SnapCarousel: View {
     
+    private let dotAppearance = UIPageControl.appearance()
     @GestureState var offset: CGFloat = 0
     @State var currentIndex: Int = 0
+    //@State var screenWidth = UIScreen.main.bounds.size.width
+    
     
     var swipeProducts = [
         SwipeProductModel(index: 1, productImage: "ImgSwipeProduct1", product_title: "다채롭게 만개한\n어버이날 선물.", product_title_color: "ColorFontBlack", product_info: "쉽게 선물 쇼핑하기.", product_info_color: "ColorFontGrayNew"),
@@ -28,13 +31,15 @@ struct SnapCarousel: View {
             
             GeometryReader{proxy in
                 let width = proxy.size.width - 50
+//                let adjustmentWidth = ( 60 / 2 ) - 20
+                
                 
                 HStack(spacing: 20) {
                     ForEach(swipeProducts){swipeProduct in
                         Image(swipeProduct.productImage)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 335)
+                            .frame(width: proxy.size.width - 60)
                             .shadow(color: .black.opacity(0.16), radius: 32, x: 0, y: 4)
                             .overlay(
                                 VStack(alignment: .leading, spacing: 0){
@@ -56,6 +61,7 @@ struct SnapCarousel: View {
                     }
                 }
                 .padding(.horizontal, 20)
+                .frame(maxWidth: .infinity)
                 .offset(x: (CGFloat(currentIndex) * -width) + offset)
                 .gesture(
                     DragGesture()
@@ -70,6 +76,7 @@ struct SnapCarousel: View {
                             let roundIndex = progress.rounded()
                             
                             currentIndex = max(min(currentIndex + Int(roundIndex), swipeProducts.count - 1), 0)
+//                            print(screenWidth - 40)
                         })
                 )
             }
